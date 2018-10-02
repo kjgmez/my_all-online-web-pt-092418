@@ -6,7 +6,7 @@ def my_all?(collection)
   while i < collection.length
     arr.push(yield(collection[i]))
     i+=1
+    binding.pryS
   end
-  binding.pry
   arr
 end
