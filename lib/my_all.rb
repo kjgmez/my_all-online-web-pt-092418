@@ -11,5 +11,6 @@ def my_all?(collection)
   if arr.include?(false)
     false
   else
-    trueS
+    true
+  end
 end
