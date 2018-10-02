@@ -7,4 +7,6 @@ def my_all?(collection)
     arr.push(yield(collection[i]))
     i+=1
   end
+  binding.pry
+  arr
 end
